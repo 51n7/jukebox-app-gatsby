@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[415],{7415:function(e,t,i){"use strict";i.r(t);var a=i(7294);t.default=function(){return a.createElement("div",null,a.createElement("h1",null,"Contact Page"),a.createElement("p",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat velit commodi officia veritatis dignissimos eum, fugit deserunt. Qui quo laboriosam inventore sapiente et explicabo, deleniti corporis facere nihil placeat."))}}}]);
+//# sourceMappingURL=415-fcc92a7a2a6b830f2c55.js.map

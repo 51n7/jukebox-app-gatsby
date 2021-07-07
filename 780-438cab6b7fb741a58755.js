@@ -1,0 +1,2 @@
+(self.webpackChunkgatsby_starter_default=self.webpackChunkgatsby_starter_default||[]).push([[780],{3780:function(e,t,i){"use strict";i.r(t);var a=i(7294);t.default=function(){return a.createElement("div",null,a.createElement("h1",null,"About Page"),a.createElement("p",null,"Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quaerat velit commodi officia veritatis dignissimos eum, fugit deserunt. Qui quo laboriosam inventore sapiente et explicabo, deleniti corporis facere nihil placeat."))}}}]);
+//# sourceMappingURL=780-438cab6b7fb741a58755.js.map
