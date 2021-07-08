@@ -19,9 +19,9 @@ const LazyComponent = ({ Component, ...props }) => (
 
 const IndexPage = () => {
   const isSSR = typeof window === "undefined"
+
   return (
     <>
-
       <div className="app-wrapper">
         <Sidebar />
 
@@ -33,9 +33,8 @@ const IndexPage = () => {
           </Router>
         )}
       </div>
-
-      <Player />
       
+      <Player />
     </>
   )
 }
