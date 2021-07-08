@@ -1,5 +1,6 @@
 import React from 'react';
 import { Router } from '@reach/router';
+// import loadable from '@loadable/component'
 
 import "../sass/styles.scss"
 
@@ -16,21 +17,27 @@ const LazyComponent = ({ Component, ...props }) => (
   </React.Suspense>
 );
 
-const IndexPage = () => (
-  <>
-    
-    <div className="app-wrapper">
-      <Sidebar />
+const IndexPage = () => {
+  const isSSR = typeof window === "undefined"
+  return (
+    <>
 
-      <Router id="app-view">
-        <LazyComponent Component={Home} path="/" />
-        <LazyComponent Component={Contact} path="contact" />
-        <LazyComponent Component={About} path="about-us" />
-      </Router>
-    </div>
+      <div className="app-wrapper">
+        <Sidebar />
 
-    <Player />
-  </>
-);
+        {!isSSR && (
+          <Router id="app-view">
+            <LazyComponent Component={Home} path="/" />
+            <LazyComponent Component={Contact} path="contact" />
+            <LazyComponent Component={About} path="about-us" />
+          </Router>
+        )}
+      </div>
+
+      <Player />
+      
+    </>
+  )
+}
 
 export default IndexPage;
