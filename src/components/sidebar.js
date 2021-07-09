@@ -22,9 +22,9 @@ const Sidebar = () => (
   <aside id="app-sidebar">
 
     <div className="group">
-      <NavLink to="/jukebox-app/"><IconHome />Home</NavLink>
-      <NavLink to="/jukebox-app/contact"><IconSearch />Browse</NavLink>
-      <NavLink to="/jukebox-app/about-us"><IconTime />About Us</NavLink>
+      <NavLink to="/"><IconHome />Home</NavLink>
+      <NavLink to="contact"><IconSearch />Browse</NavLink>
+      <NavLink to="about-us"><IconTime />About Us</NavLink>
     </div>
 
     <div className="group">

@@ -27,9 +27,9 @@ const IndexPage = () => {
 
         {!isSSR && (
           <Router id="app-view">
-            <LazyComponent Component={Home} path="/jukebox-app/" />
-            <LazyComponent Component={Contact} path="/jukebox-app/contact" />
-            <LazyComponent Component={About} path="/jukebox-app/about-us" />
+            <LazyComponent Component={Home} path="/" />
+            <LazyComponent Component={Contact} path="contact" />
+            <LazyComponent Component={About} path="about-us" />
           </Router>
         )}
       </div>
